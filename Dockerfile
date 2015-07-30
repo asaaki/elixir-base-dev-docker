@@ -2,6 +2,8 @@ FROM alpine:3.2
 
 RUN echo 'http://dl-4.alpinelinux.org/alpine/edge/main' >> /etc/apk/repositories
 
+RUN apk update && apk upgrade && rm -rf /var/cache/apk/*
+
 RUN apk --update add \
     musl musl-utils \
     libcrypto1.0 libssl1.0 ncurses-libs \
