@@ -1,3 +1,9 @@
+----
+
+**Use the images under [edib-tool](https://github.com/edib-tool) instead!**
+
+----
+
 # FROM asaaki/elixir-base-dev
 
 [![docker hub](https://img.shields.io/badge/docker-image-blue.svg?style=flat-square)](https://registry.hub.docker.com/u/asaaki/elixir-base-dev/)
